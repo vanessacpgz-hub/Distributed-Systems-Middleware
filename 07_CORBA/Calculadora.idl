@@ -1,0 +1,6 @@
+module Ejemplo {
+    interface Calculadora {
+        long sumar(in long a, in long b);
+    };
+};
+

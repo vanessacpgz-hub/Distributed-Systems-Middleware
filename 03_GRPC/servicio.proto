@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+service Saludo {
+  rpc DecirHola (Solicitud) returns (Respuesta);
+}
+
+message Solicitud {
+  string nombre = 1;
+}
+
+message Respuesta {
+  string mensaje = 1;
+}
